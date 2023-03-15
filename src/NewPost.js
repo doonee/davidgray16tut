@@ -1,24 +1,26 @@
-const NewPost = ({ handleSubmit, postTitle, setPostTitle, postBody, setPostBody }) => {
+const NewPost = ({
+  handleSubmit, postTitle, setPostTitle, postBody, setPostBody
+}) => {
   return (
-    <main className='NewPost'>
-      <h2>NewPost</h2>
-      <form className='newPostForm' onSubmit={handleSubmit}>
-        <label htmlFor='postTitle'>Title: </label>
+    <main className="NewPost">
+      <h2>New Post</h2>
+      <form className="newPostForm" onSubmit={handleSubmit}>
+        <label htmlFor="postTitle1">Title:</label>
         <input
+          id="postTitle1"
           type="text"
-          id='postTitle'
           required
           value={postTitle}
-          onChange={e => setPostTitle(e.target.value)}
+          onChange={(e) => setPostTitle(e.target.value)}
         />
-        <label htmlFor='postBody'>Post: </label>
+        <label htmlFor="postBody1">Post:</label>
         <textarea
-          id="postBody"
+          id="postBody1"
           required
           value={postBody}
-          onChange={e => setPostBody(e.target.value)}
+          onChange={(e) => setPostBody(e.target.value)}
         />
-        <button type='submit'>Submit</button>
+        <button type="submit">Submit</button>
       </form>
     </main>
   )
