@@ -1,0 +1,10 @@
+{
+  "workbench.colorTheme": "Default Dark+", // Default Dark+, Solarized Light, Quiet Light
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "workbench.preferredDarkColorTheme": "Quiet Light",
+  "workbench.preferredHighContrastColorTheme": "Quiet Light",
+  "workbench.preferredLightColorTheme": "Quiet Light",
+  "workbench.preferredHighContrastLightColorTheme": "Quiet Light"
+}
